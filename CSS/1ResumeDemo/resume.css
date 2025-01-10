@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(230, 224, 218);
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    background: #fff;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .section-title {
+    border-bottom: 3px solid black;
+    margin: 15px 2px 2px 5px;
+  }
+
+  .links > a {
+    display: inline;
+    padding: 2px;
+  }
+
+
+  .project-section-container {
+    border: 1px solid brown;
+    border-radius: 8px;
+    padding: 7px 10px;
+    margin-top: 10px;
+  }
+
+  .project-section-container > h3 {
+    margin: 10px 2px;
+  }
+
+  .section > ul {
+    border: 1px solid brown;
+    border-radius: 8px;
+    padding: 5px;
+  }
+
+  .section > ul > li {
+    border: 1px solid brown;
+    border-radius: 8px;
+    padding: 3px 5px;
+    margin: 3px 8px;
+  }
+
+
+  /* Education Section  */
+
+  .education-section > p {
+    margin: 10px 2px;
+  }
+
+  table {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 2px;
+    border-collapse: collapse;
+    padding: 1px;
+  }
+
+  th, td {
+    border: 1px solid rgb(102, 24, 24);
+    padding: 5px;
+  }
+
+  td {
+    padding: 3px;
+  }

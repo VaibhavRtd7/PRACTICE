@@ -1,0 +1,57 @@
+
+/* Contact Details  - CSS  */
+
+.contacts {
+    top: 50%;
+    left: 50%;
+    height: 800px;
+    text-align: center;
+    margin: auto;
+}
+
+
+.contacts > .contact-form {
+    width: 1000px;
+    margin: 30px 30px;
+    padding: 30px 10px;
+    text-align: left;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: auto;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.row > * {
+    margin-top: 6px;
+    text-align: center;
+}
+
+.contacts > h2 {
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+input[type=text], input[type=tel], input[type=email], select, textarea {
+    padding: 12px;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+ 
+input[type="submit"] {
+    margin-top: 5px;
+    margin-left: 85% ;
+    padding: 8px 35px;
+    border: 1px solid brown;
+    font-size: medium;
+    background-color: rgb(230, 183, 230);
+    border-radius: 5px;
+}

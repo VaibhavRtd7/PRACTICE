@@ -1,0 +1,52 @@
+/* Personal Projects - Css*/
+.projects {
+    margin: 12% auto;
+}
+
+.projects>h2 {
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}
+
+.projects>.projects-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 80%;
+}
+
+.projects-container>.project {
+    margin: 20px auto;
+    padding: 40px;
+    height: auto;
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 5%;
+}
+
+.projects-container>.project>img {
+    width: 100%;
+    border-radius: 5%;
+    opacity: 0.8;
+}
+
+.projects-container>.project>img:hover {
+    opacity: 1;
+}
+
+.projects-container>.project>.tech-stack {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects-container>.project>ul>li {
+    padding: 5px;
+    margin: 4px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
