@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    body {
+        margin: 0;
+        padding: 10px;
+        border: 1px solid black;
+        font-style: oblique;
+        height: 1000px;
+    }
+      
+    li {
+        list-style: none;
+    }  
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav > ul {
+        display: flex;
+        gap: 20px ;
+        justify-content: space-between;
+    }
+
+    header {
+        align-items: center;
+    }
+    
+    main {
+        display: grid;
+        grid-template-columns: 2fr 5fr;
+    }
+
+    main > * {
+        border: 1px solid black;
+    }
+
+    footer {
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        left: 40%;
+    }
+
+</style>
+<body>
+    <nav>
+        <a href="#"> Company logo</a>
+        <ul>
+            <li> <a href="#home"> HOME </a></li>
+            <li> <a href="#about"> ABOUT </a></li>
+            <li> <a href="#contact"> CONTACT </a></li>
+        </ul>
+    </nav>
+
+    <header>
+         <h3> Company Name </h3>
+         <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, optio ipsum eius quas debitis, ab veniam ad quis non, maiores itaque vero saepe nostrum deserunt voluptate eveniet aliquid eligendi quisquam.</p>
+    </header>
+
+    <main>
+        <aside>
+            <ul>
+                <li> Lists </li>
+                <li> Lists </li>
+                <li> Lists </li>
+                <li> Lists </li>
+            </ul>
+        </aside>
+        <section>
+              <h4> Section Heading </h4>
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa velit deserunt officia reiciendis neque natus blanditiis eius. Ut ad, cupiditate eum perspiciatis molestiae voluptatum asperiores velit officia quas esse fugit?</p>
+        </section>
+    </main>
+    <footer>
+        @2025, All rights are reserved !!
+    </footer>
+    
+</body>
+</html>

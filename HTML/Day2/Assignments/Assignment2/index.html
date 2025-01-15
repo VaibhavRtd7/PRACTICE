@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio page of an artist showcasing audio and video works.">
+  <title>Artist Portfolio</title>
+  <style>
+    /* General styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+ 
+    header {
+      text-align: center;
+      background: #b4c21e;
+      color: white;
+      padding: 10px 0;
+    }
+ 
+    h1 {
+      margin: 0;
+    }
+ 
+    .container {
+      width: 90%;
+      max-width: 800px;
+      margin: 20px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+ 
+    .media-container {
+      margin-bottom: 30px;
+    }
+ 
+    audio, video {
+      width: 100%;
+      max-width: 100%;
+      /* height: auto; */
+      border: 2px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+ 
+    .download-link {
+      display: block;
+      margin: 10px 0;
+      text-align: center;
+      font-size: 14px;
+      color: #007BFF;
+      text-decoration: none;
+    }
+ 
+    .download-link:hover {
+      text-decoration: underline;
+    }
+ 
+    footer {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 12px;
+      color: #555;
+    }
+ 
+    /* Responsive styling */
+    @media (max-width: 600px) {
+      .container {
+        padding: 10px;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Artist Portfolio</h1>
+    <p>Showcasing the works of a talented musician and filmmaker</p>
+  </header>
+ 
+  <div class="container">
+
+    <!-- Audio Section -->
+    <section class="media-container">
+      <h2>Featured Song</h2>
+      <p><strong>Title:</strong> Symphony of Dreams</p>
+      <p><strong>Description:</strong> A soothing instrumental composition by the artist.</p>
+      <audio controls preload="metadata">
+        <source src="./audio.mp3" type="audio/mp3">
+        <source src="./audio.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+      </audio>
+      <a class="download-link" href="./audio.mp3" download>Download Song</a>
+      <p><small>© 2025 Artist Name. All rights reserved.</small></p>
+    </section>
+ 
+    <!-- Video Section -->
+    <section class="media-container">
+      <h2>Demo Performance</h2>
+      <video controls autoplay preload="metadata">
+        <source src="./video-file.mp4" type="video/mp4">
+        <source src="./video-file2.mp4" type="video/mp4">
+            Your browser does not support the video element.
+      </video>
+      <a class="download-link" href="./video-file.mp4" download>Download Video</a>
+      <p><small>© 2025 Artist Name. All rights reserved.</small></p>
+    </section>
+ 
+    <section class="media-container">
+      <h2>Movie Trailer</h2>
+      <video controls preload="metadata">
+        <source src="movie-trailer.mp4" type="video/mp4">
+        <source src="movie-trailer.ogg" type="video/ogg">
+        Your browser does not support the video element.
+      </video>
+      <a class="download-link" href="movie-trailer.mp4" download>Download Video</a>
+      <p><small>© 2025 Artist Name. All rights reserved.</small></p>
+    </section>
+ 
+    <section class="media-container">
+      <h2>Exclusive Interview</h2>
+      <video controls preload="metadata">
+        <source src="./exclusive-interview.mp4" type="video/mp4">
+        <track src="./interview-subtitles.vtt" kind="subtitles" srclang="en" label="English">
+        Your browser does not support the video element.
+      </video>
+      <a class="download-link" href="./exclusive-interview.mp4" download>Download Video</a>
+      <p><small>© 2025 Vaibhav Rathod. All rights reserved.</small></p>
+    </section>
+  </div>
+ 
+  <footer>
+    <p>&copy; 2025 Artist Portfolio. Designed with HTML5.</p>
+  </footer>
+</body>
+</html>

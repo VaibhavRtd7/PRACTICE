@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container {
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    label {
+        font-size: 25px;
+        font-weight: 900;
+    }
+
+    audio {
+     margin: 10px;
+      width: 80%;
+      /* max-width: 100%; */
+      /* height: auto; */
+      border: 2px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+</style>
+<body>
+    <div class="container">
+        
+        <audio aria-label="my-audio" controls autoplay>
+            <source src="../audio.mp3" type="audio/mpeg">
+        </audio>
+        <label for="audio"> Audio </label>
+    </div>
+</body>
+</html>
